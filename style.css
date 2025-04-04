@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(to top, #000000c6, #858585 40%);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+#swap {
+    width: 50px;
+}
+
+#amount,
+#toCurrency,
+#fromCurrency {
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: none;
+    transition: all 0.3s ease-in-out;
+}
+
+#amount:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+}
+
+#toCurrency:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+}
+
+#fromCurrency:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+}
